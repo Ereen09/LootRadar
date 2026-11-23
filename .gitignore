@@ -1,0 +1,16 @@
+# Python önbellek ve derleme dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sanal ortamlar (Virtual Environments)
+venv/
+.venv/
+env/
+
+# IDE ve Editör ayarları
+.vscode/
+.idea/
+
+# Yerel veritabanı (Klasör yapısı .gitkeep ile korunur, JSON verisi dışarıda kalır)
+data/*.json
